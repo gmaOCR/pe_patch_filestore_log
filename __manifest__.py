@@ -1,8 +1,8 @@
 {
     'name': 'Patch: Filestore Log Level Fix',
-    'version': '19.0.1.0.0',
+    'version': '19.0.1.1.0',
     'category': 'Hidden/Technical',
-    'summary': 'Changes ir.attachment._file_read log level from info to debug to avoid misleading tracebacks in Odoo.sh logs',
+    'summary': 'Abaisse a DEBUG le log des fichiers absents du filestore, via un filtre de log et sans surcharger le coeur',
     'author': 'Pacific ERP',
     'website': '',
     'license': 'LGPL-3',
